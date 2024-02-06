@@ -143,10 +143,23 @@ aside {
     }
 }
 
-/* SUB PAGES */
+/* CUSTOM HOME PAGE STYLING */
 .page-sub .hero {
     background-color:rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.8);
+}
+
+.page-home .hero {
+    background-image: url('../img/rainingcity.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 20vh 1em;
+}
+
+.page-home header {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
 }
 
 /* COURSE PAGES WITH MULTIPLE PROJECT LISTS */
