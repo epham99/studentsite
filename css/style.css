@@ -56,7 +56,8 @@ header a:hover {
 
 /* MAIN */
 main {
-    background: rgba(0,0,0,.05);
+    background: rgb(0,48,70);
+    background: linear-gradient(180deg, rgba(0,48,70,1) 65%, rgba(65,118,143,1) 94%);
 }
 
 /* HERO SECTION */
