@@ -2,14 +2,14 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
-/* GLOBAL COLORS */
+/* GLOBAL TYPOGRAPHY COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
 a { color: rgba(0, 102, 204, 1); }
 a:hover { color: rgba(0, 51, 153, 1); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 88.75%; /* 14px */
   line-height: 1.4;
 }
@@ -34,7 +34,41 @@ header a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-
+/* BUTTONS */
+button {
+    font-size: inherit;
+  }
+  
+  button,
+  a.button {
+    display: inline-block;
+    background-color: rgb(192, 72, 100);
+    border: 1px solid rgb(192, 72, 100);
+    color: #fff;
+    padding: 3em 3em;
+    border-radius: 0.50em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+  }
+  
+  button.alt,
+  a.button.alt {
+    background-color: transparent;
+    border: 1px solid rgb(192, 72, 100);
+    color: rgb(192, 72, 100);
+  }
+  
+  button:hover,
+  a.button:hover {
+    background-color: rgb(138, 39, 62);
+    color: #fff;
+    border-color: rgb(138, 39, 62);
+    text-decoration: none;
+    
+  }
 /* SITE ID */
 .site-id h1 {
     margin: 0;
@@ -56,8 +90,8 @@ header a:hover {
 
 /* MAIN */
 main {
-    background: rgb(0,48,70);
-    background: linear-gradient(180deg, rgba(0,48,70,1) 65%, rgba(65,118,143,1) 94%);
+    background: rgb(155,225,231);
+    background: linear-gradient(0deg, rgba(155,225,231,1) 23%, rgba(73,175,196,1) 94%);
 }
 
 /* HERO SECTION */
@@ -151,7 +185,7 @@ aside {
 }
 
 .page-home .hero {
-    background-image: url('../img/pixelroom.gif');
+    background-image: url('../img/tealocean.jpg');
     background-size: cover;
     background-position: center;
     padding: 20vh 1em;
